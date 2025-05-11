@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\shell\AddToExclusions]
+
+[HKEY_CLASSES_ROOT\Directory\shell\AddToExclusions]
+@="Add folder to Exclusions"
+"Icon"="imageres.dll,-5356"
+
+[HKEY_CLASSES_ROOT\Directory\shell\AddToExclusions\command]
+@="powershell.exe -WindowStyle Hidden -Command \"$folderPath='%1'; Add-MpPreference -ExclusionPath $folderPath; [System.Windows.Forms.MessageBox]::Show('Added to exclusions: ' + $folderPath, 'Success', 'OK', 'Information')\""

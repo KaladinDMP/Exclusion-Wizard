@@ -1,0 +1,64 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Debug/Log files
+*.log
+debug/
+debug.txt
+batch_debug.log
+exclusion_debug.log
+
+# IDE/Editor files
+.vs/
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Testing/Development
+test/
+testing/
+temp/
+_temp/
+
+# Build artifacts
+build/
+dist/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Downloads/Cache
+downloads/
+cache/
+
+# Backup files created by editors
+*.orig
+
+# Vim files
+*~
+.*.sw[a-z]
+
+# PowerShell profile temp files
+*.ps1xml
+!*.ps1
